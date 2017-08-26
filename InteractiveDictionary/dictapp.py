@@ -12,13 +12,21 @@ def translate(w):
     if w in data:
         return w + ": " + data[w]
     elif len(get_close_matches(w, data.keys())) > 0:
-        key = get_close_matches(w, data.keys())[0]
-        print("Did you mean %s instead? [Y]es" % key)
+        matches = get_close_matches(w, data.keys())
+        #key = get_close_matches(w, data.keys())[0]
+        print("""Word not found, similar matches:""")
+        for i in range(0, len(matches)):
+            print(str(i+1) + ": %s" % matches[i])
+
+        print("""Please select a match, or [e]xit: """)
         useri = input()
-        if(useri == "y"):
-            return data[key]
+
+        if (useri == "e"):
+            return "Exiting, word not found."
         else:
-            return "Word not found."
+            index = int(str(useri))
+            index = index - 1
+            return data[matches[index]]
     else: #error handling for missing word
         return w + ": " + "Word does not exist. Please check again."
 
