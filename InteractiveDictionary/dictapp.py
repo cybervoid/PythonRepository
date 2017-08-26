@@ -6,9 +6,10 @@ type(data)
 #print(data["rain"])
 
 def translate(w):
+    w = w.ToLower()
     if w in data:
         return data[w]
-    else:
+    else: #error handling for missing word
         return "Word does not exist. Please check again."
 
 word = input("Enter word: ")
