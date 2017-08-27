@@ -33,7 +33,15 @@ A project to get comfortable using pandas and jupyter. Includes geopy to convert
 <b>Numpy</b>
 </td>
 <td>
-Using Numpy
+Basic use of Numpy, splitting, stacking, etc
+</td>
+</tr>
+<tr>
+<td>
+<b>WebMapping</b>
+</td>
+<td>
+A 3-layer webmap, a map displayed through a browser. Uses Folium.
 </td>
 </tr>
 </table>
@@ -49,5 +57,10 @@ Using Numpy
 <dt><h3>Numpy</h3></dt>
 <dd><li>pip3 install opencv-python</li></dd>
 </dl>
+<dt><h3>WebMapping</h3></dt>
+<dd><li>pip3 install folium</li></dd>
+<dd><li>pip3 install Jinja2  (I already had this, but may need in the future)</li></dd>
+</dl>
+<br />
 <h4>Sample images credit:</h4>
 <a href="https://icons8.com/icon/56915/Planetarium">Planetarium icon credits</a>
