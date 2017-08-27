@@ -56,7 +56,7 @@ A 3-layer webmap, a map displayed through a browser. Uses Folium.
 <dd><li>pip3 install geopy</li></dd>
 <dt><h3>Numpy</h3></dt>
 <dd><li>pip3 install opencv-python</li></dd>
-</dl>
+
 <dt><h3>WebMapping</h3></dt>
 <dd><li>pip3 install folium</li></dd>
 <dd><li>pip3 install Jinja2  (I already had this, but may need in the future)</li></dd>
