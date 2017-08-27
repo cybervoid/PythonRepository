@@ -41,13 +41,13 @@ Using Numpy
 <h2>Libraries</h2>
 <dl>
 <dt><h3>AnalysisWithPandas</h3></dt>
-<dd><h3>pip3 install pandas</h3></dd>
-<dd><h3>pip3 install ipython</h3></dd>
-<dd><h3>pip3 install jupyter</h3></dd>
-<dd><h3>pip3 install xlrd</dd>
-<dd><h3>pip3 install geopy</h3></dd>
+<dd><li>pip3 install pandas</li></dd>
+<dd><li>pip3 install ipython</li></dd>
+<dd><li>pip3 install jupyter</li></dd>
+<dd><li>pip3 install xlrd</dd>
+<dd><li>pip3 install geopy</li></dd>
 <dt><h3>Numpy</h3></dt>
-<dd><h3>pip3 install opencv-python</h3></dd>
+<dd><li>pip3 install opencv-python</li></dd>
 
 
 </dl>
