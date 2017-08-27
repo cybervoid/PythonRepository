@@ -4,7 +4,7 @@ A repository for misc python projects
 <table>
 <tr>
 <td>
-#Basics
+<b>Basics</b>
 </td>
 <td>
 A project for learning and practicing basic python functionality
@@ -12,14 +12,14 @@ A project for learning and practicing basic python functionality
 </tr>
 <tr>
 <td>
-#InteractiveDictionary
+<b>InteractiveDictionary</b>
 </td>
 <td>
 A simple console application to enter a word an return a near matching dictionary. Also includes a matching algorithm to attempt to identify near-matches, if a matching word is not found.
 </tr>
 <tr>
 <td>
-#AnalysisWithPandas
+<b>AnalysisWithPandas</b>
 </td>
 <td>
 A project to get comfortable using pandas and jupyter.
