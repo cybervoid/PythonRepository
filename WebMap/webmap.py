@@ -11,9 +11,20 @@ volcanoes = pandas.read_csv("./data/Volcanoes.txt")
 lat = list(volcanoes["LAT"])
 lon = list(volcanoes["LON"])
 name = list(volcanoes["NAME"])
+elev = list(volcanoes["ELEV"])
+
+def color(elevation):
+    if elevation < 1600:
+        return "green"
+    elif elevation < 2600:
+        return "orange"
+    else:
+        return "red"
+
+
 #volcanoes.set_index("VOLCANX020")
-for lt, ln, nm in zip(lat, lon, name):
-    map.add_child(folium.Marker(location=[float(lt),float(ln)], popup=nm, icon=folium.Icon(color='green')))
+for lt, ln, nm, elv in zip(lat, lon, name, elev):
+    map.add_child(folium.Marker(location=[float(lt),float(ln)], popup=nm, icon=folium.Icon(color=color(elv))))
 #for coordinates in [[38.2, -99.1],[37, -85], [44, -101]]:
 #    map.add_child(folium.Marker(location=coordinates, popup="A spot", icon=folium.Icon(color='green')))
 
