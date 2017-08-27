@@ -1,6 +1,11 @@
 # PythonRepository
 A repository for misc python projects
 
+<style>
+dl, dt {
+  font-weight: bold;
+}
+</style>
 <table>
 <tr>
 <td>
