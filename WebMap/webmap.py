@@ -21,12 +21,13 @@ def color(elevation):
     else:
         return "red"
 
+def marker(elevation):
+    return folium.map.CircleMarker(radius=3, color="blue")
 
 #volcanoes.set_index("VOLCANX020")
 for lt, ln, nm, elv in zip(lat, lon, name, elev):
-    map.add_child(folium.Marker(location=[float(lt),float(ln)], popup=nm, icon=folium.Icon(color=color(elv))))
-#for coordinates in [[38.2, -99.1],[37, -85], [44, -101]]:
-#    map.add_child(folium.Marker(location=coordinates, popup="A spot", icon=folium.Icon(color='green')))
+    map.add_child(folium.CircleMarker(location=[float(lt),float(ln)], radius=5, popup=nm, fill_color=color(elv), color='grey', fill_opacity=0.7))
+    #map.add_child(folium.Marker(location=[float(lt),float(ln)], popup=nm, icon=folium.Icon(color=color(elv))))
 
 map.add_child(fg)
 map.save("usa.html")

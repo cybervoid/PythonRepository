@@ -38,7 +38,7 @@ Basic use of Numpy, splitting, stacking, etc
 </tr>
 <tr>
 <td>
-<b>WebMapping</b>
+<b>WebMap</b>
 </td>
 <td>
 A 3-layer webmap, a map displayed through a browser. Uses Folium.
@@ -57,7 +57,7 @@ A 3-layer webmap, a map displayed through a browser. Uses Folium.
 <dt><h3>Numpy</h3></dt>
 <dd><li>pip3 install opencv-python</li></dd>
 
-<dt><h3>WebMapping</h3></dt>
+<dt><h3>WebMap</h3></dt>
 <dd><li>pip3 install folium</li></dd>
 <dd><li>pip3 install Jinja2  (I already had this, but may need in the future)</li></dd>
 </dl>
