@@ -34,3 +34,17 @@ Using Numpy
 </td>
 </tr>
 </table>
+<br />
+<h2>Libraries</h2>
+<dl>
+<dt><h3>AnalysisWithPandas</h3></dt>
+<dd>pip3 install pandas</dd>
+<dd>pip3 install ipython</dd>
+<dd>pip3 install jupyter</dd>
+<dd>pip3 install xlrd</dd>
+<dd>pip3 install geopy</dd>
+<dt><h3>Numpy</h3></dt>
+<dd>pip3 install opencv-python</dd>
+
+
+</dl>
