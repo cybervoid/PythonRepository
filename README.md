@@ -22,7 +22,15 @@ A simple console application to enter a word an return a near matching dictionar
 <b>AnalysisWithPandas</b>
 </td>
 <td>
-A project to get comfortable using pandas and jupyter. Includes geopy to convert addresses to geo-locations (latitude and longitude coordinates) 
+A project to get comfortable using pandas and jupyter. Includes geopy to convert addresses to geo-locations (latitude and longitude coordinates)
+</td>
+</tr>
+<tr>
+<td>
+<b>Numpy</b>
+</td>
+<td>
+Using Numpy
 </td>
 </tr>
 </table>
