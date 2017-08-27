@@ -48,6 +48,6 @@ Using Numpy
 <dd><li>pip3 install geopy</li></dd>
 <dt><h3>Numpy</h3></dt>
 <dd><li>pip3 install opencv-python</li></dd>
-
-
 </dl>
+<h4>Sample images credit:</h4>
+<a href="https://icons8.com/icon/56915/Planetarium">Planetarium icon credits</a>
