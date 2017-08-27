@@ -5,3 +5,4 @@
 #pip3 install ipython
 #pip3 install jupyter
 #pip3 install xlrd
+#pip3 install geopy
