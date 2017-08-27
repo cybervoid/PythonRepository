@@ -2,9 +2,7 @@
 A repository for misc python projects
 
 <style>
-dl, dt {
-  font-weight: bold;
-}
+
 </style>
 <table>
 <tr>
@@ -43,13 +41,13 @@ Using Numpy
 <h2>Libraries</h2>
 <dl>
 <dt><h3>AnalysisWithPandas</h3></dt>
-<dd>pip3 install pandas</dd>
-<dd>pip3 install ipython</dd>
-<dd>pip3 install jupyter</dd>
-<dd>pip3 install xlrd</dd>
-<dd>pip3 install geopy</dd>
+<dd><h3>pip3 install pandas</h3></dd>
+<dd><h3>pip3 install ipython</h3></dd>
+<dd><h3>pip3 install jupyter</h3></dd>
+<dd><h3>pip3 install xlrd</dd>
+<dd><h3>pip3 install geopy</h3></dd>
 <dt><h3>Numpy</h3></dt>
-<dd>pip3 install opencv-python</dd>
+<dd><h3>pip3 install opencv-python</h3></dd>
 
 
 </dl>
