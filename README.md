@@ -4,8 +4,8 @@
 
 <table>
 <tr>
-<td colspan="2">
-Repository Contents:
+<td colspan="2" bgcolor="#EFEFFB">
+<h4>Repository Contents</h4>
 </td>
 </tr>
 <tr>
