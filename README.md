@@ -44,7 +44,15 @@ Basic use of Numpy, splitting, stacking, etc
 <b>WebMap</b>
 </td>
 <td>
-A 3-layer webmap, a map displayed through a browser. Uses Folium.
+A 3-layer map, displayed with a web browser allowing for a basic map layer, toggling of points on a map, and an opaque color overlay. Uses Folium.
+</td>
+</tr>
+<tr>
+<td>
+<b>WebsiteBlocker</b>
+</td>
+<td>
+A simple python program that runs as a background process. Its purpose is to block certain websites. This program is only for learning purposes. I have no intention of distributing it for its intended use.
 </td>
 </tr>
 </table>
