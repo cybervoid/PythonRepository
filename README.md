@@ -1,7 +1,12 @@
 # PythonRepository
-A repository for misc python projects
+<p><h3>A repository for misc python projects</h3></p>
 
 <table>
+<tr>
+<td colspan="2">
+Repository Contents:
+</td>
+</tr>
 <tr>
 <td>
 <b>Basics</b>
