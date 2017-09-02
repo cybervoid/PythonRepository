@@ -1,9 +1,6 @@
 # PythonRepository
 A repository for misc python projects
 
-<style>
-
-</style>
 <table>
 <tr>
 <td>
