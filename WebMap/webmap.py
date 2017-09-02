@@ -32,4 +32,5 @@ for lt, ln, nm, elv in zip(lat, lon, name, elev):
 fg.add_child(folium.GeoJson(data=open("./data/world.json", 'r', encoding='utf-8-sig'),
 style_function=lambda x: {'fillColor' : 'green' if x['properties']['POP2005'] < 10000000 else 'orange' if 15000000 <= x['properties']['POP2005'] < 40000000 else 'red'}))
 map.add_child(fg)
+map.add_child(folium.LayerControl()) #this needs to be added after the feature group
 map.save("usa.html")
