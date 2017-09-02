@@ -5,7 +5,7 @@ import pandas
 #initialize new folium map
 map = folium.Map(location=[39, -98], zoom_start=4, tiles="Mapbox Bright")
 #add markers
-fg = folium.FeatureGroup(name="My Map")
+featureGroupVolcanoes = folium.FeatureGroup(name="Volcanoes")
 
 volcanoes = pandas.read_csv("./data/Volcanoes.txt")
 lat = list(volcanoes["LAT"])
@@ -26,11 +26,14 @@ def marker(elevation):
 
 #volcanoes.set_index("VOLCANX020")
 for lt, ln, nm, elv in zip(lat, lon, name, elev):
-    map.add_child(folium.CircleMarker(location=[float(lt),float(ln)], radius=5, popup=nm, fill_color=color(elv), color='grey', fill_opacity=0.7))
+    featureGroupVolcanoes.add_child(folium.CircleMarker(location=[float(lt),float(ln)], radius=5, popup=nm, fill_color=color(elv), color='grey', fill_opacity=0.7))
     #map.add_child(folium.Marker(location=[float(lt),float(ln)], popup=nm, icon=folium.Icon(color=color(elv))))
 
-fg.add_child(folium.GeoJson(data=open("./data/world.json", 'r', encoding='utf-8-sig'),
+featureGroupPopulation = folium.FeatureGroup(name="Population")
+
+featureGroupPopulation.add_child(folium.GeoJson(data=open("./data/world.json", 'r', encoding='utf-8-sig'),
 style_function=lambda x: {'fillColor' : 'green' if x['properties']['POP2005'] < 10000000 else 'orange' if 15000000 <= x['properties']['POP2005'] < 40000000 else 'red'}))
-map.add_child(fg)
+map.add_child(featureGroupVolcanoes)
+map.add_child(featureGroupPopulation)
 map.add_child(folium.LayerControl()) #this needs to be added after the feature group
 map.save("map.html")
