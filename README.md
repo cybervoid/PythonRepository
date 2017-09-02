@@ -5,7 +5,7 @@
 <table>
 <tr>
 <td colspan="2" bgcolor="#EFEFFB">
-<h4>Repository Contents</h4>
+<center>Repository Contents</center>
 </td>
 </tr>
 <tr>
