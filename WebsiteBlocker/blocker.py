@@ -15,4 +15,5 @@ redirect = "127.0.0.1"
 
 website_list = ["www.foxnews.com", "facebook.com", "msnbc.com", "www.msnbc.com"]
 #setup infinite loop
-#while True:
+while True:
+    print(1)
