@@ -153,6 +153,7 @@ def arrayReshaping1Dto3D():
     print(data) #print [[11 22] [33 44] [55 66]]
     print('---------')
     return
+
 #print("one dimensional example")
 #oneDimensionalListToArray()
 #print("two dimensional example")
